@@ -4,10 +4,40 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {}
+  properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - type: Button
+    properties: {role: primary-color, align: right, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: ASK QUESTION, font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: primary_color_1
+    layout_properties: {grid_position: 'IGEGKA,AKDZNQ'}
+    event_bindings: {click: primary_color_1_click}
+  - type: TextArea
+    properties: {}
+    name: input_text
+    layout_properties: {slot: default, grid_position: 'QMWXPS,CTLRQS'}
+  - type: TextBox
+    properties: {}
+    name: question_text
+    layout_properties: {slot: default, grid_position: 'LVOERE,CWCDJN'}
+  - type: RichText
+    properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: 22, content: '', font: '', spacing_above: small,
+      spacing_below: small, data: null, background: '', format: markdown}
+    name: answer_text
+    layout_properties: {grid_position: 'QEEHDN,ARIXLB'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: ASK ME A QUESTION, font_size: null, font: '', spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: false, underline: false,
+    icon: ''}
+  name: title
+  layout_properties: {slot: title}
