@@ -10,26 +10,36 @@ components:
   components:
   - type: Button
     properties: {role: primary-color, align: right, tooltip: '', border: '', enabled: true,
-      foreground: '', visible: true, text: ASK QUESTION, font_size: null, font: '',
-      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
-      background: '', bold: false, underline: false, icon: ''}
+      foreground: '', visible: true, text: ANSWER ▶️, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
     name: primary_color_1
     layout_properties: {grid_position: 'IGEGKA,AKDZNQ'}
     event_bindings: {click: primary_color_1_click}
   - type: TextArea
-    properties: {}
+    properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: 'theme:Secondary 700', visible: true,
+      text: '', font_size: null, auto_expand: false, font: '', spacing_above: small,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false}
     name: input_text
-    layout_properties: {slot: default, grid_position: 'QMWXPS,CTLRQS'}
+    layout_properties: {slot: default, grid_position: 'XKMGNM,HNYABL', full_width_row: false,
+      row_background: ''}
+    event_bindings: {show: input_text_show, focus: input_text_focus}
   - type: TextBox
-    properties: {}
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: 'theme:Secondary 700', visible: true,
+      text: '', font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
+      italic: false, background: '', bold: true, underline: false}
     name: question_text
-    layout_properties: {slot: default, grid_position: 'LVOERE,CWCDJN'}
-  - type: RichText
-    properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
-      foreground: '', visible: true, font_size: 22, content: '', font: '', spacing_above: small,
-      spacing_below: small, data: null, background: '', format: markdown}
+    layout_properties: {slot: default, grid_position: 'LVOERE,JPWPTE'}
+    event_bindings: {pressed_enter: question_text_pressed_enter}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: 22, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
     name: answer_text
-    layout_properties: {grid_position: 'QEEHDN,ARIXLB'}
+    layout_properties: {grid_position: 'OSMGOI,AQKUJF'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
