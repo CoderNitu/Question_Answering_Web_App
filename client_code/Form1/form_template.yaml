@@ -12,7 +12,7 @@ components:
     properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
       auto_expand: false, font: '', spacing_above: small, spacing_below: small, italic: false,
-      background: '', bold: false, underline: false}
+      background: '', bold: true, underline: false}
     name: input_text
     layout_properties: {slot: default, grid_position: 'XKMGNM,HNYABL', full_width_row: false,
       row_background: ''}
@@ -53,9 +53,9 @@ components:
   layout_properties: {slot: title}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: 'Tip : Drop the corpus in the above input box first. Ask
-      any question you have regarding that corpus', font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+    visible: true, text: 'Tip : Drop the passage in the above input box first and
+      then ask any question you have regarding that passage', font_size: null, font: '',
+    spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '',
+    bold: true, underline: false, icon: ''}
   name: label_1
   layout_properties: {slot: default}
