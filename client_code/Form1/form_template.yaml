@@ -8,14 +8,6 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
-  - type: Button
-    properties: {role: primary-color, align: right, tooltip: '', border: '', enabled: true,
-      foreground: '', visible: true, text: ANSWER ▶️, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
-    name: primary_color_1
-    layout_properties: {grid_position: 'IGEGKA,AKDZNQ'}
-    event_bindings: {click: primary_color_1_click}
   - type: TextArea
     properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
       border: '', enabled: true, foreground: 'theme:Secondary 700', visible: true,
@@ -33,6 +25,14 @@ components:
     name: question_text
     layout_properties: {slot: default, grid_position: 'LVOERE,JPWPTE'}
     event_bindings: {pressed_enter: question_text_pressed_enter}
+  - type: Button
+    properties: {role: primary-color, align: right, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: ANSWER ▶️, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: primary_color_1
+    layout_properties: {grid_position: 'IXSBIG,VDACVU'}
+    event_bindings: {click: primary_color_1_click}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: '', font_size: 22, font: '', spacing_above: small, icon_align: left,
@@ -51,3 +51,11 @@ components:
     icon: ''}
   name: title
   layout_properties: {slot: title}
+- type: Label
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+    visible: true, text: 'Tip : Drop the corpus in the above input box first. Ask
+      any question you have regarding that corpus', font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+    underline: false, icon: ''}
+  name: label_1
+  layout_properties: {slot: default}
