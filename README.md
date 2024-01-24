@@ -10,3 +10,5 @@ Question-answering models can retrieve the answer to a question from a given tex
 
 ## Question Answering Model Variants
 
+# 1. Extractive QA 
+
