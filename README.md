@@ -21,6 +21,8 @@ Extractive QA systems help us find answers to questions within our documents/con
 
 ![question_answering_11 (1)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/1d0bf9f4-ad12-4ab5-b943-0494f0c2f3a6)
 
+# 2. Generative QA
+
 
 
 
