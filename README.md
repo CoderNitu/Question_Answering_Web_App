@@ -29,6 +29,8 @@ Generative QA uses large language models to generate human-like responses to use
 
 ![2a5a22a-Generative_QA](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/2b444ea3-87b8-4a4d-924a-336cfff420d1)
 
+# (a) Open Generative QA
+
 
 
 
