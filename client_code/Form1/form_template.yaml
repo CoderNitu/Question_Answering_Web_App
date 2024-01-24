@@ -10,9 +10,9 @@ components:
   components:
   - type: TextArea
     properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
-      border: '', enabled: true, foreground: 'theme:Secondary 700', visible: true,
-      text: '', font_size: null, auto_expand: false, font: '', spacing_above: small,
-      spacing_below: small, italic: false, background: '', bold: false, underline: false}
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      auto_expand: false, font: '', spacing_above: small, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
     name: input_text
     layout_properties: {slot: default, grid_position: 'XKMGNM,HNYABL', full_width_row: false,
       row_background: ''}
