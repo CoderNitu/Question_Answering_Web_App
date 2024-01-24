@@ -27,6 +27,7 @@ Extractive QA systems help us find answers to questions within our documents/con
 
 Generative QA uses large language models to generate human-like responses to user queries in question-answering apps. Instead of simply extracting answers from existing documents, generative systems create a new text based on instructions provided in the prompt. A prompt is a specific instruction given to the model in natural language to help it understand the task and generate an appropriate response. To build a basic generative QA system, we need a large language model (LLM), like GPT(Generative Pre-trained Transformer), and a simple prompt, such as a user query. LLMs are trained to predict the next word in a sequence and generate answers token by token. Based on the prompt, the model generates an answer.
 
+![2a5a22a-Generative_QA](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/2b444ea3-87b8-4a4d-924a-336cfff420d1)
 
 
 
