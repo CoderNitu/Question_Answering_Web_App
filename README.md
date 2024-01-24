@@ -8,3 +8,5 @@ Question-answering models can retrieve the answer to a question from a given tex
 
 ![Screenshot (197)](https://github.com/CoderNitu/Question_Answer_Web_App/assets/87817227/9c0b57ca-5ec7-46c8-b3d5-6180387f2be1)
 
+## Question Answering Model Variants
+
