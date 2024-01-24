@@ -2,7 +2,8 @@
 
 A natural language processing (NLP) question-answering (QA) system is a computer program that uses AI to understand the meaning and context of questions and provide accurate answers. The goal is to create a system that can understand the context of a question, search for relevant information, and present an accurate answer. Here, I learn how to load a pre-trained language model for question-answering tasks in our system along with dependencies like transformers and Pytorch using the NLP pipeline to configure. Then I create a web app for it using Anvil, which allows me to build a free Python-based drag-and-drop web app and deploy it over the cloud. 
 
-![Screenshot (198)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/bf3a72cd-6cfb-4718-bb90-da4bd3c99868)
+
+![Screenshot (199)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/35e66140-2343-4460-be25-0907b033f5cd)
 
 
 ## Question-Answering Model
