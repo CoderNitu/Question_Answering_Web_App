@@ -1,0 +1,11 @@
+allow_embedding: false
+package_name: Question_Answer_Web_App
+name: Question&Answer Web App
+startup_form: Form1
+uplink_visible: true
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
