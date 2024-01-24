@@ -33,6 +33,8 @@ Generative QA uses large language models to generate human-like responses to use
 
 The model generates free text directly based on the context. Generating text is the task of producing new text. These models can, for example, fill in incomplete text or paraphrase(rewarding or expressing the meaning of something written or spoken using different words.).
 
+![Screenshot (200)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/992165d8-fb5a-49ed-bf24-0cc0fd0fb20e)
+
 
 
 
