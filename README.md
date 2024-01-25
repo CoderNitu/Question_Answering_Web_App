@@ -58,7 +58,7 @@ All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been
 
 # Pre-Trained Model Used
 
-The pre-trained model I used is the "Roberta-base" model, which shares the same architecture as the BERT model with some modifications in hyperparameters and tiny embedding tweaks. It is trained using the SQuAD2.0 dataset and used for Extraction QA tasks.
+The pre-trained model I used is the "Roberta-base" model, which shares the same architecture as the BERT model with some modifications in hyperparameters and tiny embedding tweaks. It is trained using the SQuAD2.0 dataset and used for Extraction QA tasks. You can look further about the model on the Huggingface website: https://huggingface.co/deepset/roberta-base-squad2
 
 
 
