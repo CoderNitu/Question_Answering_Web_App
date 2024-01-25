@@ -60,7 +60,23 @@ All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been
 
 # Pre-Trained Model Used
 
-The pre-trained model I used is the "Roberta-base" model, which shares the same architecture as the BERT model with some modifications in hyperparameters and tiny embedding tweaks. It is trained using the SQuAD2.0 dataset and used for Extraction QA tasks. You can look further about the model on the Huggingface website: https://huggingface.co/deepset/roberta-base-squad2
+The pre-trained model I used is the "Roberta-base" model, which shares the same architecture as the BERT model with some modifications in hyperparameters and tiny embedding tweaks. It is trained using the SQuAD2.0 dataset and used for Extraction QA tasks. You can look further at the model on the Huggingface website: https://huggingface.co/deepset/roberta-base-squad2.
+
+## Tensorflow vs Keras vs PyTorch:
+
+These are the three most famous deep-learning Python framework use for learning, developing, and training neural networks. All of them have their own pros and cons.
+
+# 1. Tensorflow 
+TensorFlow is an end-to-end open-source deep learning framework developed by Google and released in 2015. It is known for documentation and training support, scalable production and deployment options, multiple abstraction levels, and support for different platforms, such as Android. TensorFlow is a symbolic math library used for neural networks and is best suited for dataflow programming across a range of tasks. It offers multiple abstraction levels for building and training models.
+
+# 2. Keras
+ 
+Keras is an effective high-level neural network Application Programming Interface (API) written in Python. This open-source neural network library is designed to provide fast experimentation with deep neural networks, and it can run on top of CNTK, TensorFlow, and Theano. Keras was adopted and integrated into TensorFlow in mid-2017. Users can access it via the tf.keras module. However, the Keras Library can still operate separately and independently.
+
+# 3. PyTorch
+
+PyTorch is a relatively new deep-learning framework based on Torch. Developed by Facebook’s AI research group and open-sourced on GitHub in 2017, it’s used for natural language processing applications. PyTorch has a reputation for simplicity, ease of use, flexibility, efficient memory usage, and dynamic computational graphs. It also feels native, making coding more manageable and increasing processing speed.
+
 
 
 
