@@ -42,7 +42,13 @@ In this case, no context is provided. A model completely generates the answer.
 
 We can also differentiate QA models depending on whether they are open-domain or closed-domain. Open-domain models are not restricted to a specific domain, while closed-domain models are restricted to a specific domain (e.g. legal, medical documents). The main difference between a closed-domain and an open-domain QA system is the dataset on which it was trained.
 
-# Transformers
+# Transformer Models: The Future of Natural Language Processing
+
+Transformer models are a type of deep learning model that is used for natural language processing (NLP) tasks. They are able to learn long-range dependencies(connections and relationships between words in a sentence), which makes them very powerful for tasks such as machine translation, text summarization, and question answering. Transformer models work by first encoding the input sentence into a sequence of vectors. This encoding is done using a self-attention mechanism, which allows the model to learn the relationships between the words in the sentence. Once the input sentence has been encoded, the model decodes it into a sequence of output tokens. This decoding is also done using a self-attention mechanism. The attention mechanism is what allows transformer models to learn long-range dependencies between words in a sentence. The attention mechanism works by focusing on the most relevant words in the input sentence when decoding the output tokens.
+
+
+
+
 
 
 
