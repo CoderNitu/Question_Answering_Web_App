@@ -46,7 +46,8 @@ We can also differentiate QA models depending on whether they are open-domain or
 
 Transformer models are a type of deep learning model that is used for natural language processing (NLP) tasks. They are able to learn long-range dependencies(connections and relationships between words in a sentence), which makes them very powerful for tasks such as machine translation, text summarization, and question answering. Transformer models work by first encoding the input sentence into a sequence of vectors. This encoding is done using a self-attention mechanism, which allows the model to learn the relationships between the words in the sentence. Once the input sentence has been encoded, the model decodes it into a sequence of output tokens. This decoding is also done using a self-attention mechanism. The attention mechanism is what allows transformer models to learn long-range dependencies between words in a sentence. The attention mechanism works by focusing on the most relevant words in the input sentence when decoding the output tokens. Transformer models are very powerful, but they can be computationally expensive to train. However, they are constantly being improved, and they are becoming more efficient and powerful all the time.
 
-![Screenshot (201)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/63f80da2-d25e-404a-bdb1-862d4a44d555)
+![12](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/0efb847d-bce1-4bfc-bdf0-57142ad3e437)
+
 ![seq2seq](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/f9d33a0d-9522-4f2f-b0f9-3f7a9f5d3faf)
 
 
