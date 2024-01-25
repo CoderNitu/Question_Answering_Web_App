@@ -42,6 +42,8 @@ In this case, no context is provided. A model completely generates the answer.
 
 We can also differentiate QA models depending on whether they are open-domain or closed-domain. Open-domain models are not restricted to a specific domain, while closed-domain models are restricted to a specific domain (e.g. legal, medical documents). The main difference between a closed-domain and an open-domain QA system is the dataset on which it was trained.
 
+# Transformers
+
 
 
 
