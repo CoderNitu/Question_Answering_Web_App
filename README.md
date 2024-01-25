@@ -29,6 +29,10 @@ Generative QA uses large language models to generate human-like responses to use
 
 ![2a5a22a-Generative_QA](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/2b444ea3-87b8-4a4d-924a-336cfff420d1)
 
+# Open Generative QA
+
+
+
 We can also differentiate QA models depending on whether they are open-domain or closed-domain. Open-domain models are not restricted to a specific domain, while closed-domain models are restricted to a specific domain (e.g. legal, medical documents). The main difference between a closed-domain and an open-domain QA system is the dataset on which it was trained.
 
 
