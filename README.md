@@ -31,7 +31,7 @@ Generative QA uses large language models to generate human-like responses to use
 
 # (a) Open Generative QA
 
-The model generates free text directly based on the context. Generating text is the task of producing new text. These models can, for example, fill in incomplete text or paraphrase(rewording or expressing the meaning of something written or spoken using different words, especially to achieve greater clarity). A popular variant of Text Generation models, also known as the Casual Language model(CLM) predicts the next word given a bunch of words. Word by word a longer text is formed that results in for example: Giving an incomplete sentence, completing it, continuing a story given the first sentences, and providing a code description, to generate the code.
+This model generates free text directly based on the context. Generating text is the task of producing new text. These models can, for example, fill in incomplete text or paraphrase(rewording or expressing the meaning of something written or spoken using different words, especially to achieve greater clarity). A popular variant of Text Generation models, also known as the Casual Language model(CLM) predicts the next word given a bunch of words. Word by word a longer text is formed that results in for example: Giving an incomplete sentence, completing it, continuing a story given the first sentences, and providing a code description, to generate the code.
 
 
 
