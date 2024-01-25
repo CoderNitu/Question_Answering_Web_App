@@ -33,6 +33,7 @@ Generative QA uses large language models to generate human-like responses to use
 
 This model generates free text directly based on the context. Generating text is the task of producing new text. These models can, for example, fill in incomplete text or paraphrase(rewording or expressing the meaning of something written or spoken using different words, especially to achieve greater clarity). A popular variant of Text Generation models, also known as the Casual Language model(CLM) predicts the next word given a bunch of words. Word by word a longer text is formed that results in for example: Giving an incomplete sentence, completing it, continuing a story given the first sentences, and providing a code description, to generate the code.
 
+![Screenshot (200)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/af6ca4b0-aa60-4c3e-9b03-5362f391a0fc)
 
 
 We can also differentiate QA models depending on whether they are open-domain or closed-domain. Open-domain models are not restricted to a specific domain, while closed-domain models are restricted to a specific domain (e.g. legal, medical documents). The main difference between a closed-domain and an open-domain QA system is the dataset on which it was trained.
