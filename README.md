@@ -54,6 +54,8 @@ Transformer models are a type of deep learning model that is used for natural la
 
 ![Screenshot (202)](https://github.com/CoderNitu/Question_Answering_Web_App/assets/87817227/b6da09eb-610c-42f2-aac3-65643ef6d77f)
 
+All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been trained as language models. This means they have been trained on large amounts of raw text in a self-supervised fashion. Self-supervised learning is a type of training in which the objective is automatically computed from the inputs of the model. That means that humans do not need to label the data! This type of model develops a statistical understanding of the language it has been trained on, but it’s not very useful for specific practical tasks. Because of this, the general pre-trained model then goes through a process called transfer learning. During this process, the model is fine-tuned in a supervised way — that is, using human-annotated labels — on a given task.
+
 
 
 
