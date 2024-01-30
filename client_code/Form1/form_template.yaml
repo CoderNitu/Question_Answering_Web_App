@@ -53,7 +53,7 @@ components:
   layout_properties: {slot: title}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: 'Tip : Drop the corpus in the above input box first. Ask
+    visible: true, text: 'Tip : Drop the passage in the above input box first. Ask
       any question you have regarding that corpus', font_size: null, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
     underline: false, icon: ''}
